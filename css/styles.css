@@ -1,0 +1,99 @@
+:root {
+}
+
+/* ЦВЕТА ТЕКСТА
+
+цвет лого 
+color: #2196F3;
+color: #000000;
+
+ цвет навигационного меню
+ color: #2196F3;
+ color: #212121;
+
+ цвет контактной инфы
+  color: #2196F3;
+  color: #757575;
+
+  блок герой
+  color: #FFFFFF;
+
+   блок FEATURES
+    H2 - color: #212121;
+    P - color: #757575;
+
+   блок TEAM
+     H2 - color: #212121;
+    P - color: #757575;
+
+    футер
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
+
+    цвет текста КНОПОК НА ПОРТФОЛИО
+     color: #FFFFFF;
+     color: #212121;
+
+     H2 color: #212121;
+     P color: #757575;
+
+*/
+
+body {
+  background: #e5e5e5;
+  font-family: 'Roboto', sans-serif; /* основной шрифт */
+}
+
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+
+/* HEADER */
+.header {
+  background: #ffffff;
+}
+.accent {
+  color: #2196f3;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+/* HERO */
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/* FEATURES */
+
+/* WORK */
+
+/* TEAM */
+.team {
+  background: #f5f4fa;
+}
+
+/* FOOTER */
+.footer {
+  background: #2f303a;
+}
+
+/* PORTFOLIO */

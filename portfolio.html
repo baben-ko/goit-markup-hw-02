@@ -4,17 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--HEADER-->
-    <header>
+    <header class="header">
       <nav>
-        <a href="./index.html" aria-label="логотип вэбстудии">WebStudio</a>
+        <a class="logo" href="./index.html" aria-label="логотип вэбстудии"
+          ><span class="accent">Web</span>Studio</a
+        >
         <ul>
-        <li><a href="./index.html">Студия</a></li>
-        <li><a href="./portfolio.html">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+          <li><a href="./index.html">Студия</a></li>
+          <li><a href="./portfolio.html">Портфолио</a></li>
+          <li><a href="">Контакты</a></li>
         </ul>
       </nav>
       <address>
@@ -24,68 +30,120 @@
     </header>
     <!-- PORTFOLIO -->
     <main>
-    <section>
-      <div><form action="handler.php">
-        <input name="dzen" type="radio" value="all" checked /> Все
-        <input name="dzen" type="radio" value="web-sites" /> Веб-сайты
-        <input name="dzen" type="radio" value="app" /> Приложения
-        <input name="dzen" type="radio" value="design" /> Дизайн
-        <input name="dzen" type="radio" value="marketing" /> Маркетинг
-    </div>
-        <h2>Портфолио</h2>
+      <section>
+        <h1>Портфолио</h1>
+        <div>
+          <button class="" type="button">Все</button>
+          <button class="" type="button">Веб-сайты</button>
+          <button class="" type="button">Приложения</button>
+          <button class="" type="button">Дизайн</button>
+          <button class="" type="button">Маркетинг</button>
+        </div>
+
+        <!-- <form action="">
+            <input name="dzen" type="radio" value="all" checked /> Все
+            <input name="dzen" type="radio" value="web-sites" /> Веб-сайты
+            <input name="dzen" type="radio" value="app" /> Приложения
+            <input name="dzen" type="radio" value="design" /> Дизайн
+            <input name="dzen" type="radio" value="marketing" /> Маркетинг
+          </form> -->
+
         <ul>
-            <li>
-                <img src="./images/page-portfolio/1.jpg" alt="Технокряк" width="370" height="294" />
-                <h3>Технокряк</h3>
-                <p>Веб-сайт</p>
-            </li>
-            <li>
-                <img src="./images/page-portfolio/2.jpg" alt="Постер New Orlean-vs-Golden Star" width="370" height="294" />
-                <h3>Постер New Orlean vs Golden Star</h3>
-                <p>Дизайн</p>
-            </li>
-            <li>
-                <img src="./images/page-portfolio/3.jpg" alt="Ресторан-Seafood" width="370" height="294" />
-                <h3>Приложение</h3>
-                <p>Приложение</p>
-            </li>
-            <li>
-                <img src="./images/page-portfolio/4.jpg" alt="Проект-Prime" width="370" height="294" />
-                <h3>Проект Prime</h3>
-                <p>Маркетинг</p>
-            </li>
-            <li>
-                <img src="./images/page-portfolio/5.jpg" alt="Проект-Boxes" width="370" height="294" />
-                <h3>Проект Boxes</h3>
-                <p>Приложение</p>
-            </li>
-            <li>
-                <img src="./images/page-portfolio/6.jpg" alt="Inspiration-has-no-Borders" width="370" height="294" />
-                <h3>Inspiration has no Borders</h3>
-                <p>Веб-сайт</p>
-            </li>
-            <li>
-                <img src="./images/page-portfolio/7.jpg" alt="Издание-Limited-Edition" width="370" height="294" />
-                <h3>Издание Limited Edition</h3>
-                <p>Дизайн</p>
-            </li>
-            <li>
-                <img src="./images/page-portfolio/8.jpg" alt="Проект-LAB" width="370" height="294" />
-                <h3>Проект LAB</h3>
-                <p>Маркетинг</p>
-            </li>
-            <li>
-                <img src="./images/page-portfolio/9.jpg" alt="Growing-Business" width="370" height="294" />
-                <h3>Growing Business</h3>
-                <p>Приложение</p>
-            </li>
+          <li>
+            <img
+              src="./images/page-portfolio/1.jpg"
+              alt="Технокряк"
+              width="370"
+              height="294"
+            />
+            <h2>Технокряк</h2>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              src="./images/page-portfolio/2.jpg"
+              alt="Постер New Orlean-vs-Golden Star"
+              width="370"
+              height="294"
+            />
+            <h2>Постер New Orlean vs Golden Star</h2>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <img
+              src="./images/page-portfolio/3.jpg"
+              alt="Ресторан-Seafood"
+              width="370"
+              height="294"
+            />
+            <h2>Приложение</h2>
+            <p>Приложение</p>
+          </li>
+          <li>
+            <img
+              src="./images/page-portfolio/4.jpg"
+              alt="Проект-Prime"
+              width="370"
+              height="294"
+            />
+            <h2>Проект Prime</h2>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <img
+              src="./images/page-portfolio/5.jpg"
+              alt="Проект-Boxes"
+              width="370"
+              height="294"
+            />
+            <h2>Проект Boxes</h2>
+            <p>Приложение</p>
+          </li>
+          <li>
+            <img
+              src="./images/page-portfolio/6.jpg"
+              alt="Inspiration-has-no-Borders"
+              width="370"
+              height="294"
+            />
+            <h2>Inspiration has no Borders</h2>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              src="./images/page-portfolio/7.jpg"
+              alt="Издание-Limited-Edition"
+              width="370"
+              height="294"
+            />
+            <h2>Издание Limited Edition</h2>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <img
+              src="./images/page-portfolio/8.jpg"
+              alt="Проект-LAB"
+              width="370"
+              height="294"
+            />
+            <h2>Проект LAB</h2>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <img
+              src="./images/page-portfolio/9.jpg"
+              alt="Growing-Business"
+              width="370"
+              height="294"
+            />
+            <h2>Growing Business</h2>
+            <p>Приложение</p>
+          </li>
         </ul>
-    <div>
-    </div>
-    </section>
+      </section>
     </main>
     <!--FOOTER-->
-    <footer>
+    <footer class="footer">
       <h2><a href="./index.html">WebStudio</a></h2>
       <address>
         <ul>
