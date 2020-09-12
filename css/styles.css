@@ -73,6 +73,7 @@ li {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--white);
+  text-transform: uppercase;
 }
 .hero-button {
   font-weight: 700;
