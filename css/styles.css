@@ -63,6 +63,11 @@ li {
 .address .link:focus {
   color: var(--blue);
 }
+
+.active {
+  color: var(--blue);
+}
+
 /* ====================== HERO ========================= */
 .hero {
   background: #2f303a;
